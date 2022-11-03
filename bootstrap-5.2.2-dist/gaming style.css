@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@800&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 35, 49) !important;
+    
+}
+
+nav{
+    background-color: rgb(47 53 63);
+}
+
+ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white !important;
+}
+
+.image1{
+    width: 70px !important;
+    height: 50px !important;
+    object-fit: contain;
+}
+.form-input{
+    display: flex;
+    width: 210px !important;
+    height: 50px !important;
+    border: 2px solid rgb(24, 35, 49) !important;
+    background-color: rgb(24, 35, 49);
+    border-radius: 50px;
+}
+.image2{
+    width: 50px;
+    height: 50px;
+    object-fit: contain !important;
+}
+.rate{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+.image3{
+    width: 53px;
+    height: 53px;
+}
+
+
+
+.head1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(84 84 84);
+    padding-top: 10% !important;
+    font-size: 73px;
+    padding-left: 13% !important; 
+}
+.head2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 80px;
+    padding-left: 13% !important; 
+}
+.rate1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(158 3 161);
+    font-size: 80px;
+}
+.head3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 53px;
+    padding-left: 13% !important; 
+}
+.image4{
+    width: 290px;
+    height: 121px;
+    object-fit: contain;
+}
+.game-images{
+    position: relative;
+}
+
+.image5{
+    position: absolute;
+    margin-left: 60%; 
+    object-fit: contain;
+}
+.image6{
+    position: absolute;
+    margin-left: 58%; 
+    object-fit: contain;
+    margin-top: 60px;
+}
+.image7{
+    position: absolute;
+    margin-left: 66%;
+    object-fit: contain;
+    margin-top: 110px;
+}
+.image8{
+    margin-left: 77%;
+    object-fit: contain;
+    margin-top: 180px;
+}
+.image9{
+    margin-left: 69%;
+    object-fit: contain;
+}
+.image10{
+    margin-left: 60%; 
+    object-fit: contain;
+}
+.image11{
+    margin-left: 53%; 
+    object-fit: contain;
+}
+.container{
+    position: relative;
+}
+.head4{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-left: 13%;
+}
+.para1{
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: rgb(207 207 207);
+    padding-left: 13%;
+
+}
+.para2{
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: rgb(158 3 161);
+}
+.head5{
+    font-size: 40px;
+    color: rgb(158 3 161);
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    padding-left: 35% !important;
+}
+@media(max-width: 768px){
+    .head5{
+        padding-left: 0% !important;
+    }
+}
+.para3{
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    padding-left: 32% !important;
+    color: rgb(207 207 207);
+}
+@media(max-width: 768px){
+    .para3{
+        padding-left: 0% !important;
+    }
+}
+.gaming-img{
+    position: relative !important;
+    align-items: center;
+}
+.img-one{   
+    width: 50%;
+    height: 50%;
+}
+@media(max-width: 768px){
+    .img-one{
+        width: 20%;
+        height: 20%;
+    }
+}
+.image13{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -15%;
+}
+@media(max-width: 768px){
+    .image13{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -7%;
+    }
+}
+.head6{
+    padding-top: 60%;
+    padding-left: 60%;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px){
+    .head6{
+        padding-top: 25%;
+        padding-left: 25%;
+    }
+}
+.gaming-img2{
+    position: relative !important;
+}
+.img-two{
+    margin-left: 35%;
+    width: 50%;
+    height: 50%;
+}
+@media(max-width: 768px){
+    .img-two{
+        width: 20%;
+        height: 20%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+}
+.head7{
+    padding-top: 90%;
+    padding-left: 60%;
+    color: white;
+    font-size: 15px;
+    width: 280%;
+}
+@media(max-width: 768px){
+    .head7{
+       padding-top: 25%;
+       padding-left: 35%;    
+       margin-left: -15%;
+    }
+}
+.image14{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -35%;
+   
+}
+@media(max-width: 768px){
+    .image14{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -12%;
+    }
+}
+
+.gaming-img3{
+    position: relative !important;
+}
+.img-three{
+    margin-left: 45%;
+    width: 50%;
+    height: 50%;
+}
+@media(max-width: 768px){
+    .img-three{
+        width: 20%;
+        height: 20%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+.image15{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -35%; 
+}
+@media(max-width: 768px){
+    .image15{
+        position: absolute;
+        margin-left: -10%;
+        margin-top: 20%;
+    }
+}
+.head8{
+    padding-top: 90%;
+    padding-left: 90%;
+    color: white;
+    font-size: 15px;
+}
+@media(max-width: 768px){
+    .head8{
+        padding-top: 30%;
+        padding-left: 27%;
+    }
+}
+.gaming-img4{
+    position: relative !important;
+}
+.img-four{
+    margin-left: 55%;
+    width: 50%;
+    height: 50%;
+}
+@media(max-width: 768px){
+    .img-four{
+        width: 20%;
+        height: 20%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+.image16{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 70%;
+   
+}
+@media(max-width: 768px){
+    .image16{
+       position: absolute;
+        margin-left: -10%;
+        margin-top: 22%;
+    }
+}
+.head9{
+    padding-top: 100%;
+    padding-left: 85%;
+    color: white;
+    font-size: 15px;
+    width: 280%;
+}
+@media(max-width: 768px){
+    .head9{
+       padding-top: 33%;
+       padding-left: 23%;
+    }
+}
+.gaming-img5{
+    position: relative !important;
+}
+.img-five{
+    margin-left: 60%;
+    width: 50%;
+    height: 50%;
+}
+@media(max-width: 768px){
+    .img-five{
+        width: 20%;
+        height: 20%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+.image17{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 80%;
+   
+}
+@media(max-width: 768px){
+    .image17{
+       position: absolute;
+        margin-left: -10%;
+        margin-top: 25%;
+    }
+}
+.head10{
+    padding-top: 90%;
+    padding-left: 105%;
+    color: white;
+    font-size: 15px;
+    width: 280%;
+}
+@media(max-width: 768px){
+    .head10{
+       padding-top: 30%;
+       padding-left: 25%;
+    }
+}
+
+
+.head6{
+    font-size: 15px;
+    color: white;
+    
+}
+
+.head11{
+    color: white;
+    padding-left: 13%;
+}
+.para4{
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: rgb(207 207 207);
+    padding-left: 13%;
+
+}
+.para5{
+    font-size: 20px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: rgb(1 150 16);
+
+}
+.head12{
+    color: white;
+    padding-left: 50%;
+    font-size: 33px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+.dollar{
+    font-size: 33px;
+    color: rgb(249 198 18);
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+.dollar-rate{
+    font-size: 30px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: rgb(1 150 16)
+    
+}
+
+
+
