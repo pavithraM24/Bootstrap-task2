@@ -1,5 +1,5 @@
 //Decalring two variables
-var name = 'Pavithra M'
+/*var name = 'Pavithra M'
 var age = 23
 //Declaring constants
 const address = "No: 15, Adyar, Chennai-TamilNadu"
@@ -9,8 +9,6 @@ console.log("My Name is :", name)
 console.log("My Age is :", age)
 console.log("My address is :", address)
 console.log("Contact details :", phone_number)
-
-
 
 
 
@@ -25,4 +23,4 @@ console.log("Type of the number one:", typeof number)
 const pi_value = 3.14
 console.log("Number two is :", pi_value)
 //adding two variable
-console.log("Total is:" , number_one + pi_value)
+console.log("Total is:" , number + pi_value)*/
