@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JavaScript Introduction</title>
         <link rel="stylesheet" href="style.css">
-        <script src="jscript.js"></script>
+        <script src="todolist.js"></script>
     </head>
-    <body>
-        <h1>Hello World</h1>
+    <body onload="displayTodo()">
+        <h1>To-do List Application</h1>
+        <input id="todo" type="text" name="todo"/>
+        <button onclick="addTodo()">add todo</button>
+        <h2>Todo list</h2>
+        <ol id="todo-list"></ol>  
     </body>
 </html>

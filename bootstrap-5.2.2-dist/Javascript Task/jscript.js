@@ -1,30 +1,3 @@
-//Decalring two variables
-/*var name = 'Pavithra M'
-var age = 23
-//Declaring constants
-const address = "No: 15, Adyar, Chennai-TamilNadu"
-const phone_number = 0912456789
-//consoling those 2 variables and constants
-console.log("My Name is :", name)
-console.log("My Age is :", age)
-console.log("My address is :", address)
-console.log("Contact details :", phone_number)
-
-
-
-
-//Declaring the variable 1 in string
-var number_one = "130"
-//Converting the string variable into Number
-var number = Number("130")
-console.log("Number one is :" , number)
-console.log("Type of the number one:", typeof number)
-//Declaring the variable 2 in Number/float
-const pi_value = 3.14
-console.log("Number two is :", pi_value)
-//adding two variable
-console.log("Total is:" , number + pi_value)*/
-
 
 //TASK 3 
 
@@ -50,6 +23,7 @@ let string_len = string_one.length
 let string_len1 = string_two.length
 console.log("Length of the string is:", string_len, string_len1)
 
+
 //Declaring new string
 var string_text = "I love chocolates" //string
 //finding the index value of letter "a"
@@ -66,6 +40,7 @@ console.log("Before adding the prefix value:", num)
 var prefix = "$" //string
 console.log("After adding the prefix value:", prefix + num)
 
+
 //Declaring two number variable
 var numOne = 24 //number
 console.log("The num1 is:", numOne)
@@ -76,6 +51,7 @@ console.log("The total is:", numOne + numTwo)
 console.log("The difference is:", numOne - numTwo)
 console.log("The multiplication value is:", numOne * numTwo)
 console.log("The division value is:", numOne / numTwo)
+
 
 //Declaring float num and integer num
 var num_three = 17.5 //float/decimal
@@ -96,3 +72,5 @@ console.log("The converted float value is:", num_int)
 console.log("The float value is:", num_three)
 console.log("The integer value is:", num_four)
 console.log("The total value is", num_three + num_four)
+
+
